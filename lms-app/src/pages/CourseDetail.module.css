@@ -1,0 +1,98 @@
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title and Description */
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Progress Tracking */
+  .progressContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .progress {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .completed {
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Lessons */
+  .lessonList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .lessonItem {
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border-left: 4px solid #007bff;
+    font-size: 16px;
+  }
+  
+  /* Quiz Section */
+  .quizSection {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #0056b3;
+  }
+  
+  /* Back Button */
+  .backButton {
+    background: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .backButton:hover {
+    background: #5a6268;
+  }
+  
