@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #4a90e2, #005792); /* Professional blue gradient */
+  font-family: "Nunito", sans-serif;
+}
+
+.signup-form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  text-align: center;
+}
+
+.signup-form h2 {
+  font-size: 2rem;
+  color: #003366; /* Dark blue for a professional feel */
+  margin-bottom: 15px;
+}
+
+.signup-form p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #005792;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+  border-color: #003366;
+  box-shadow: 0 4px 10px rgba(0, 51, 102, 0.2);
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.lms-btn {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #007acc; /* Modern blue */
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 122, 204, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.lms-btn:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 51, 102, 0.3);
+}
+
+.already-member {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #005792;
+}
+
+.already-member a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: 600;
+}
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #005792;
+    outline: none;
+    font-size: 1rem;
+    background: white;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .form-group select:focus {
+    border-color: #003366;
+    box-shadow: 0 4px 10px rgba(0, 51, 102, 0.2);
+  }
+  
+  .form-group select option {
+    background: white;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  /* Add hover effect */
+  .form-group select:hover {
+    background: #f5f5f5;
+  }
+  
+
+.already-member a:hover {
+  text-decoration: underline;
+}
