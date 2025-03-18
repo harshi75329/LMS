@@ -1,0 +1,39 @@
+/* Background for list page */
+.list-page {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    padding: 30px;
+}
+
+/* Centering the table */
+.enrollment-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styles */
+.enrollment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.enrollment-table th, .enrollment-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.enrollment-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Row Styling */
+.enrollment-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,84 @@
+/* Background styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Professional dark gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered Form Container */
+.form-container {
+    width: 500px; /* Slightly bigger */
+    padding: 40px;
+    background: #ffffff; /* Clean solid white */
+    border-radius: 12px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Smooth shadow */
+    text-align: center;
+}
+
+/* Heading */
+.form-container h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f5f5f5;
+    outline: none;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Focus */
+input:focus, select:focus {
+    background: #fff;
+    border: 2px solid #007bff;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 60%; /* Reduced width for better aesthetics */
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px); /* Subtle lift effect */
+}
+
+/* Success and Error Messages */
+.success, .error {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.success {
+    color: green;
+    background: rgba(0, 255, 0, 0.1);
+}
+
+.error {
+    color: red;
+    background: rgba(255, 0, 0, 0.1);
+}
